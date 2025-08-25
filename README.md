@@ -27,11 +27,14 @@ After training the model, I analyzed the relationship between key features and t
 The various reasons for absence were grouped into four categories. The model shows that "Reason 1" (various diseases) and "Reason 3" (poisoning or specific conditions) have a significantly higher probability of leading to long-term absence compared to others.
 
 ![Reasons vs. Probability Plot](visualizations/reasons_vs_probability.png)
+<img width="1366" height="768" alt="reasons_vs_probability" src="https://github.com/user-attachments/assets/7ae3fba5-5cf9-4127-869f-6200e75f5e8c" />
+
 
 **2. Probability of Absenteeism by Age**
 The analysis reveals a non-linear relationship between age and the probability of excessive absence. The probability tends to increase through an employee's late 20s and 30s, peaking around age 40 before declining.
 
 ![Age vs. Probability Plot](visualizations/age_vs_probability.png)
+<img width="1366" height="768" alt="age_vs_probability" src="https://github.com/user-attachments/assets/37c3b0bb-5572-42b0-96a0-2246ed8eab4a" />
 
 ### 🤖 Machine Learning Model
 A Logistic Regression model was trained to predict whether an employee's absence would be longer than the median duration.
