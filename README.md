@@ -48,6 +48,31 @@ The model is encapsulated in `absenteeism_module.py` for easy integration and pr
 -   **Machine Learning:** Python, Pandas, NumPy, Scikit-learn
 -   **Data Visualization:** Tableau, Matplotlib/Seaborn
 -   **Development:** Jupyter Notebook, Git & GitHub
+-   
+## 🚀 How to Use
+
+1.  **Clone the repository:**
+    ```bash
+    git clone (https://github.com/sayankumarnandi2003/Employee-Absenteeism-Prediction).git)
+    cd Employee-Absenteeism-Prediction
+    ```
+
+2.  **Install dependencies:**
+    ```bash
+    pip install pandas numpy scikit-learn
+    ```
+
+3.  **Train the Model:**
+    Run the `train_model.py` script. This will use `Absenteeism_preprocessed (1).csv` to create two new files in the main folder: `model` and `scaler`.
+    ```bash
+    python train_model.py
+    ```
+
+4.  **Make New Predictions:**
+    Open and run the Jupyter Notebook (`predictions2108.ipynb`). It will use the `model` and `scaler` files to predict absenteeism for the data in `Absenteeism_new_data.csv` and will save the results to `Absenteeism_predictions.csv`.
+
+## 📈 Results
+The final Logistic Regression model achieves an accuracy of **77.14%** on the test set, demonstrating a strong ability to predict excessive absenteeism.
 
 ### 📂 Project Structure
 ├── data/
