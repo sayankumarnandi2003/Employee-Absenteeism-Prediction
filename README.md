@@ -50,3 +50,15 @@ The model is encapsulated in `absenteeism_module.py` for easy integration and pr
 -   **Development:** Jupyter Notebook, Git & GitHub
 
 ### 📂 Project Structure
+├── data/
+├── saved_models/
+├── notebooks/
+├── visualizations/
+│   ├── tableau_absenteeism_dashboard.png
+│   ├── age_vs_probability.png
+│   └── reasons_vs_probability.png
+├── absenteeism_module.py
+├── train_model.py
+└── README.md
+
+
