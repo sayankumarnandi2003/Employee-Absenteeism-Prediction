@@ -75,15 +75,13 @@ The model is encapsulated in `absenteeism_module.py` for easy integration and pr
 The final Logistic Regression model achieves an accuracy of **77.14%** on the test set, demonstrating a strong ability to predict excessive absenteeism.
 
 ### 📂 Project Structure
-├── data/
-├── saved_models/
-├── notebooks/
-├── visualizations/
-│   ├── tableau_absenteeism_dashboard.png
-│   ├── age_vs_probability.png
-│   └── reasons_vs_probability.png
+├── Absenteeism_new_data.csv
+├── Absenteeism_preprocessed (1).csv
+├── Absenteeism_predictions.csv
 ├── absenteeism_module.py
+├── model
+├── predictions2108.ipynb
+├── scaler
 ├── train_model.py
 └── README.md
-
 
